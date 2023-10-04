@@ -1,0 +1,151 @@
+.version{
+    color: #F2BE22;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 83.333% */
+    text-align: center;
+}
+.popular {
+    color: #18121E;
+text-align: center;
+font-family: Nunito Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: 120%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card {
+    position: relative;
+}
+.kvadrat {
+    width: 65px;
+    height: 32px;
+    display: inline-flex;
+padding: 4px 8px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px 0px 0px 4px;
+background: rgba(253, 253, 253, 0.40);
+backdrop-filter: blur(2px);
+position: absolute;
+top: 50px;
+right: 20px;
+}
+.rating {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 54px;
+    right: 54px;
+    height: 33px;
+}
+.rating-count {
+    width: 21px;
+    height: 18px;
+    color: #1A3E3E;
+font-family: Nunito Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 128.571% */
+position: absolute;
+top: 60px;
+right: 28px;
+}
+.flex-element {
+    display: flex;
+    justify-content: center;
+    width: 380px;
+    height: 500px;
+    padding: 20px;
+}
+.phone {
+    width: 23.75rem;
+    height: 5.625rem;
+    flex-shrink: 0;
+    border-radius: 0rem 0rem 2rem 2rem;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(3px);
+    position: absolute;
+top: 26.9rem;
+right: 1.25rem;
+}
+.text {
+    color: #FDFDFD;
+    font-family: Nunito Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.8rem */
+    position: absolute;
+    top: 28.3rem;
+    left: 3rem;
+}
+.text-two {
+    color: #FDFDFD;
+    font-family: Nunito Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem; /* 128.571% */
+    position: absolute;
+    top: 30rem;
+    left: 3rem;
+}
+.phone-two {
+    width: 5.375rem;
+    height: 2.5rem;
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    background: rgba(255, 255, 255, 0.30);
+    position: absolute;
+    top: 28.19rem;
+    right: 2rem;
+}
+.money {
+    width: 3.375rem;
+    height: 1.5rem;
+    color: #FDFDFD;
+    font-family: Nunito Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem; /* 120% */
+    position: absolute;
+    top: 29rem;
+    right: 3.5rem;
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.63rem;
+    justify-content: flex-end;
+    flex-shrink: 4;
+    padding-bottom: 7.5rem;
+
+}
+.row {
+    display: flex;
+    margin-bottom: 0.63rem;
+    justify-content: flex-end;
+    gap:0.63rem;
+}
+.flex-element-2 {
+    width: 15.625rem;
+    height: 15.625rem;
+    flex-shrink: 0;
+}
