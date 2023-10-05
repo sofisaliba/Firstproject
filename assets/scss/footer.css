@@ -1,0 +1,277 @@
+.footer {
+  background-color: #1a3e3e;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 5fr 1fr;
+  height: 36.6875rem;
+  position: relative;
+  width: 100%;
+}
+
+.firstblock {
+  grid-column: 1/2;
+  color: white;
+  margin-left: 8rem;
+  margin-top: 11.13rem;
+  width: 90%;
+  height: 16.4375rem;
+  flex-shrink: 0;
+}
+
+.secondblock {
+  grid-column: 2/3;
+  color: white;
+  margin-left: 8rem;
+  margin-top: 11.13rem;
+  width: 17.5rem;
+  height: 14.625rem;
+  flex-shrink: 0;
+}
+
+.thirdblock {
+  grid-column: 3/4;
+  color: white;
+  margin-left: 2rem;
+  margin-top: 11.13rem;
+  width: 17.5rem;
+  height: 12.5rem;
+  flex-shrink: 0;
+}
+
+.name {
+  font-family: Nunito Sans, sans-serif;
+  color: #f3f5f4;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.text {
+  width: 100%;
+  font-family: Nunito Sans, sans-serif;
+  margin-top: 1.7rem;
+  color: var(--white-color-100, #fff);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+
+.form {
+  width: 71.75rem;
+  background-color: #fdfdfd;
+  height: 12.25rem;
+  position: absolute;
+  margin-left: 8.125rem;
+  z-index: 9999;
+  margin-top: 30.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  border-radius: 0.38rem 0.38rem 0.38rem 0.38rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.blocktopically {
+  grid-row: 1/2;
+  width: 5.4375rem;
+  height: 1.25rem;
+  margin-left: 1.125rem;
+}
+
+.topically {
+  font-size: 18px;
+  color: #f2be22;
+}
+
+.blocktake {
+  grid-row: 2/3;
+  width: 23.75rem;
+  height: 3.875rem;
+}
+
+.take {
+  font-size: 26px;
+  font-family: Nunito-Sans, sans-serif;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.command {
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #1a3e3e;
+  color: white;
+  font-family: Nunito Sans, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+  letter-spacing: 0.012rem;
+  grid-column: 2/3;
+  margin-left: 1rem;
+  border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+  width: 15rem;
+  height: 2.75rem;
+}
+
+.list-group {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.actual {
+  box-sizing: border-box;
+  margin-left: 6.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 4.13rem;
+  display: grid;
+  grid-template-rows: 0.5fr 3fr;
+}
+
+.gmail {
+  margin-top: 2.5rem;
+  margin-right: 6.25rem;
+  width: 33.5rem;
+  height: 4.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.subscribe {
+  width: 33.5rem;
+  height: 2.25rem;
+  grid-column: 1/3;
+  font-family: Nunito Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 1.125rem;
+  margin-top: 0.5rem;
+}
+
+.block-list-group {
+  display: flex;
+}
+
+footer .secondfooter {
+  padding: 10px 0;
+  background: black;
+  margin-top: 47px;
+  font-size: 15px;
+  height: 4.125rem;
+  width: 100%;
+  grid-column: 1/4;
+  display: flex;
+  color: white;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondfooterblock {
+  display: flex;
+  width: 73.75rem;
+  justify-content: space-around;
+  height: 1.125rem;
+}
+
+.contacts {
+  text-decoration: underline;
+  margin-top: 6rem;
+  display: flex;
+}
+
+.info {
+  font-size: 0.875rem;
+  font-family: NUnito Sans, sans-serif;
+  line-height: 1.125rem;
+}
+
+.number {
+  font-size: 0.875rem;
+  font-family: NUnito Sans, sans-serif;
+  margin-left: 1.5rem;
+  line-height: 1.125rem;
+}
+
+.list {
+  font-family: Nunito Sans, sans-serif;
+  color: #fdfdfd;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.125rem;
+}
+
+.list-one {
+  margin-top: 1.25rem;
+}
+
+.list-two {
+  margin-top: 1rem;
+}
+
+.policy {
+  text-decoration: underline;
+  font-family: Nunito Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.125rem;
+  width: 18.5rem;
+  height: 1.125rem;
+}
+
+.ip {
+  font-family: Nunito Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.125rem;
+  width: 15.1875rem;
+  height: 1.125rem;
+}
+
+.input-group {
+  width: 17.5rem;
+  height: 2.75rem;
+  grid-column: 1/2;
+}
+
+.socialmedia {
+  gap: 1rem;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.telegram {
+  width: 2rem;
+  height: 2rem;
+}
+
+.new {
+  color: #1a3e3e;
+  font-family: Nunito Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1rem;
+  text-transform: lowercase;
+  display: flex;
+  padding: 0.125rem 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.25rem;
+  background: var(--white-color-100, #fff);
+  width: 2.75rem;
+  height: 1.25rem;
+  margin-left: 0.5rem;
+}/*# sourceMappingURL=footer.css.map */
