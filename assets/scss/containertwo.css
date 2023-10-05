@@ -6,7 +6,6 @@
   font-weight: 400;
   line-height: 1.25rem; /* 83.333% */
   text-align: center;
-  padding-bottom: 160.12rem;
 }
 
 .popular {
@@ -17,7 +16,6 @@
   font-style: normal;
   font-weight: 800;
   line-height: 120%; /* 2.4rem */
-  padding-bottom: 161.88rem;
 }
 
 .container {
@@ -38,10 +36,8 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 0.625rem;
-  border-radius: 0.25rem 0rem 0rem 0.25rem;
-  background: rgba(253, 253, 253, 0.4);
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  
+  
   position: absolute;
   top: 3.13rem;
   left: 18rem;
