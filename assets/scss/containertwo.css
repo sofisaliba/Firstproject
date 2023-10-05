@@ -1,6 +1,6 @@
 .version {
   color: #F2BE22;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans";
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -11,7 +11,7 @@
 .popular {
   color: #18121E;
   text-align: center;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans";
   font-size: 2rem;
   font-style: normal;
   font-weight: 800;
@@ -57,7 +57,7 @@
   width: 1.3125rem;
   height: 1.125rem;
   color: #1A3E3E;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
@@ -91,7 +91,7 @@
 
 .text {
   color: #FDFDFD;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans";
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
@@ -103,7 +103,7 @@
 
 .text-two {
   color: #FDFDFD;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
@@ -132,7 +132,7 @@
   width: 3.375rem;
   height: 1.5rem;
   color: #FDFDFD;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
