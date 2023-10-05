@@ -35,13 +35,14 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 5rem 23.12rem 6.25rem 23.12rem;
 }
 
 .blog__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px 20px;
-  width: 60%;
+  margin-bottom: 50px;
 }
 
 .blog__btn {
@@ -70,7 +71,8 @@ h2 {
 .news__img {
   width: 14.375rem;
   height: 17.5rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 6px;
 }
 
@@ -100,6 +102,4 @@ h2 {
   font-style: normal;
   font-weight: 700;
   line-height: 1.25rem; /* 142.857% */
-}
-
-/*# sourceMappingURL=blog.css.map */
+}/*# sourceMappingURL=blog.css.map */
