@@ -524,7 +524,6 @@ h2 {
   letter-spacing: 0.192px;
 }
 
-<<<<<<< HEAD
 @font-face {
   font-family: "Nunito Sans";
   src: url(/assets/fonts/NunitoSans.ttf);
@@ -694,7 +693,8 @@ h2 {
   width: 15.625rem;
   height: 15.625rem;
   border-radius: 50px 0px;
-=======
+}
+
 .footer {
   background-color: #1a3e3e;
   display: grid;
@@ -744,7 +744,7 @@ h2 {
   line-height: 1.5rem;
 }
 
-.text {
+.texts {
   width: 100%;
   font-family: Nunito Sans, sans-serif;
   margin-top: 1.7rem;
@@ -755,7 +755,7 @@ h2 {
   line-height: 1.25rem;
 }
 
-.form {
+.forms {
   width: 71.75rem;
   background-color: #fdfdfd;
   height: 12.25rem;
@@ -971,5 +971,4 @@ footer .secondfooter {
   width: 2.75rem;
   height: 1.25rem;
   margin-left: 0.5rem;
->>>>>>> main
 }/*# sourceMappingURL=style.css.map */
