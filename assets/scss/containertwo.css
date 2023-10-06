@@ -4,12 +4,6 @@
   font-style: normal;
   font-weight: normal;
 }
-.oneblockg {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  top:0.5rem;
-}
 .version {
   color: #F2BE22;
   font-family: "Nunito Sans";
@@ -49,6 +43,8 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 0.625rem;
+  
+  
   position: absolute;
   top: 3.13rem;
   left: 18rem;
