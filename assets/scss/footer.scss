@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+  color: white;
+}
 .footer {
     background-color: #1a3e3e;
     display: grid;
@@ -39,7 +43,7 @@
   .name {
     font-family: Nunito Sans, sans-serif;
     color: #f3f5f4;
-
+    text-align: start;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
@@ -117,10 +121,7 @@
   .list-group {
     list-style: none;
   }
-  a {
-    text-decoration: none;
-    color: white;
-  }
+  
 
   .actual {
     box-sizing: border-box;
