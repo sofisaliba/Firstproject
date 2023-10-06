@@ -24,13 +24,12 @@
   justify-content: center;
 }
 
-.card border-light mb-3 {
+.card {
   position: relative;
-  border-color: none;
 }
 
 .kvadrat {
-  max-width: 4.0625rem;
+  width: 4.0625rem;
   height: 2rem;
   display: inline-flex;
   padding: 0.25rem 0.5rem;
@@ -47,7 +46,7 @@
 }
 
 .rating {
-  max-width: 1.5rem;
+  width: 1.5rem;
   height: 1.5rem;
   position: absolute;
   top: 3.37rem;
@@ -55,7 +54,7 @@
 }
 
 .rating-count {
-  max-width: 1.3125rem;
+  width: 1.3125rem;
   height: 1.125rem;
   color: #1A3E3E;
   font-family: "Nunito Sans";
@@ -72,20 +71,19 @@
   display: flex;
   justify-content: center;
   padding: 1.25rem;
-  max-width: 23.75rem;
+  width: 23.75rem;
   height: 31.25rem;
   flex-shrink: 0;
-  border: none;
 }
 
 .phone {
-  max-width: 21.3rem;
+  width: 21.3rem;
   height: 5.625rem;
   flex-shrink: 0;
   border-radius: 0rem 0rem 2rem 2rem;
   background: rgba(255, 255, 255, 0.2);
   -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
   position: absolute;
   top: 24.6rem;
   right: 0.6rem;
@@ -116,7 +114,7 @@
 }
 
 .phone-two {
-  max-width: 5.375rem;
+  width: 5.375rem;
   height: 2.5rem;
   display: inline-flex;
   padding: 0.5rem 1rem;
@@ -131,7 +129,7 @@
 }
 
 .money {
-  max-width: 3.375rem;
+  width: 3.375rem;
   height: 1.5rem;
   color: #FDFDFD;
   font-family: "Nunito Sans";
