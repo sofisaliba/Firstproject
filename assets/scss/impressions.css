@@ -36,4 +36,29 @@
   font-weight: 600;
   line-height: 20px;
   letter-spacing: 0.192px;
-}/*# sourceMappingURL=impressions.css.map */
+}
+
+@media all and (max-width: 1180px) {
+  .impressions__wrapper {
+    display: flex;
+  }
+  .impressions__img {
+    width: 100%;
+  }
+}
+@media all and (max-width: 768px) {
+  .impressions__wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+  }
+  .impressions__img1, .impressions__img5 {
+    display: none;
+  }
+}
+@media all and (max-width: 320px) {
+  .impressions__img:not(:nth-child(2)) {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=impressions.css.map */

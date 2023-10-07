@@ -104,3 +104,22 @@ font-style: normal;
 font-weight: 700;
 line-height: 1.25rem; /* 142.857% */
 }
+
+@media all and (max-width: 768px)  {
+    .news {
+        display: flex;
+        flex-direction: column;
+        min-width: auto;
+    }
+
+}
+
+@media all and (max-width: 320px)  {
+    .news:not(:first-child) {
+        display: none;
+    }
+
+    .blog {
+            padding: 5rem 0 6.25rem 0;
+    }
+}

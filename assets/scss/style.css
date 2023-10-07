@@ -103,8 +103,7 @@
   border: 10px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.2);
-  -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
 }
 .form .form_container {
   display: inline-flex;
@@ -251,8 +250,7 @@ li {
   gap: 0.625rem;
   border-radius: 0.25rem 0rem 0rem 0.25rem;
   background: rgba(253, 253, 253, 0.4);
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
   position: absolute;
   top: 3.13rem;
   left: 18rem;
@@ -295,8 +293,7 @@ li {
   flex-shrink: 0;
   border-radius: 0rem 0rem 2rem 2rem;
   background: rgba(255, 255, 255, 0.2);
-  -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
   position: absolute;
   top: 24.6rem;
   right: 0.6rem;
@@ -428,8 +425,7 @@ h2 {
 .news__img {
   width: 14.375rem;
   height: 17.5rem;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 6px;
 }
 
@@ -461,6 +457,21 @@ h2 {
   line-height: 1.25rem; /* 142.857% */
 }
 
+@media all and (max-width: 768px) {
+  .news {
+    display: flex;
+    flex-direction: column;
+    min-width: auto;
+  }
+}
+@media all and (max-width: 320px) {
+  .news:not(:first-child) {
+    display: none;
+  }
+  .blog {
+    padding: 5rem 0 6.25rem 0;
+  }
+}
 .impressions {
   display: flex;
   flex-direction: column;
@@ -501,6 +512,28 @@ h2 {
   letter-spacing: 0.192px;
 }
 
+@media all and (max-width: 1180px) {
+  .impressions__wrapper {
+    display: flex;
+  }
+  .impressions__img {
+    width: 100%;
+  }
+}
+@media all and (max-width: 768px) {
+  .impressions__wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+  }
+  .impressions__img1, .impressions__img5 {
+    display: none;
+  }
+}
+@media all and (max-width: 320px) {
+  .impressions__img:not(:nth-child(2)) {
+    display: none;
+  }
+}
 @font-face {
   font-family: "Nunito Sans";
   src: url(/assets/fonts/NunitoSans.ttf);
@@ -632,8 +665,7 @@ h2 {
   width: 21.875rem;
   flex-shrink: 0;
   border-radius: 24px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   overflow: hidden;
 }
@@ -703,8 +735,7 @@ h2 {
     width: 92vw;
     height: 110vw;
     border-radius: 24px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     position: relative;
     overflow: hidden;
   }
@@ -1229,4 +1260,6 @@ footer .secondfooter {
   .forms {
     display: none;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
