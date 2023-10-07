@@ -513,7 +513,7 @@ h2 {
   padding-bottom: 6.25rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  min-width: 75rem;
+  min-width: 60rem;
 }
 
 .e-inner-frame {
@@ -529,7 +529,7 @@ h2 {
 .e-content {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 2.5rem;
   align-items: flex-start;
   min-width: 19rem;
   max-width: 36.25rem;
@@ -694,6 +694,14 @@ h2 {
   position: relative;
 }
 
+@media all and (max-width: 68.875rem) {
+  .e-content {
+    gap: 0.8rem;
+  }
+  .e-inner-frame {
+    gap: calc(-61.375rem + 100vw);
+  }
+}
 @media all and (max-width: 768px) {
   .e-small-image {
     display: flex;

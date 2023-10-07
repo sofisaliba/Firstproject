@@ -192,13 +192,12 @@
 }
 
 @media all and (max-width: 68.875rem) {
-    .e-content{
-        gap: 0.8rem; 
+    .e-content {
+        gap: 0.8rem;
     }
-    .e-inner-frame{
+    .e-inner-frame {
         gap: calc(7.5rem - 68.875rem + 100vw);
     }
-    
 }
 
 @media all and (max-width: 768px) {
@@ -285,5 +284,3 @@
         display: none;
     }
 }
-
-
