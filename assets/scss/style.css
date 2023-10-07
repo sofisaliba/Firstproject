@@ -1,15 +1,3 @@
-@font-face {
-  font-family: "NEXT ART";
-  src: url("../fonts/NEXTART_Bold.woff") format(woff);
-}
-@font-face {
-  font-family: "Nunito Sans SB";
-  src: url("../fonts/NunitoSans-SemiBold.woff") format(woff);
-}
-@font-face {
-  font-family: "Nunito Sans R";
-  src: url("../fonts/NunitoSans-Regular.woff") format(woff);
-}
 .container_k {
   background: url("../image/Rectangle1.png");
   max-width: 100%;
@@ -44,13 +32,11 @@
   font-style: normal;
   font-weight: 550;
   line-height: normal;
+  text-decoration: none;
 }
 .header .header_logo {
   width: 8.563rem;
   height: 4.5rem;
-}
-.header header a {
-  text-decoration: none;
 }
 .header .header_btn {
   display: flex;
@@ -103,7 +89,8 @@
   border: 10px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
 }
 .form .form_container {
   display: inline-flex;
@@ -112,9 +99,6 @@
   width: 1095px;
   height: 81px;
   margin: 40px 42px;
-}
-.form .form a {
-  text-decoration: none;
 }
 .form #location,
 .form #member {
@@ -136,11 +120,11 @@
   font-weight: 700;
   line-height: 150%;
 }
-.form input {
+.form .data_k {
   background: transparent;
   display: flex;
-  height: 50px;
-  width: 236px;
+  height: 52px;
+  width: 270px;
   padding: 0 16px;
   align-items: center;
   gap: 8px;
@@ -187,16 +171,6 @@
   font-weight: 400;
   line-height: 150%;
 }
-.form .form_link {
-  flex: 1 0 0;
-  color: #1A3E3E;
-  font-family: "Nunito Sans SB";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0.192px;
-}
 .form ::-webkit-calendar-picker-indicator {
   color: black;
   opacity: 1;
@@ -210,6 +184,262 @@ li {
   list-style-type: none;
 }
 
+@media screen and (min-width: 1024px) {
+  .container_k {
+    background: url("../image/Rectangle1.png");
+    max-width: 100%;
+    height: 61.563rem;
+    margin: 0 auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .header {
+    display: flex;
+    width: 1180px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  .header .header_menu {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    width: 39.063rem;
+    height: 1.563rem;
+    gap: 15px;
+  }
+  .header .header_menu_link {
+    color: #FDFDFD;
+    font-family: "Nunito Sans R";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .header .header_logo {
+    width: 8.563rem;
+    height: 4.5rem;
+  }
+  .header .header_btn {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #1A3E3E;
+    border: none;
+    width: 157px;
+    height: 44px;
+    color: #FDFDFD;
+    font-family: "Nunito Sans SB";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.192px;
+  }
+  .header .header_btn:hover {
+    background-color: rgb(72, 182, 126);
+  }
+  .main_section {
+    margin: 0 auto;
+    padding: 82px;
+  }
+  .main_section .main_section_title {
+    width: 1180px;
+    height: 161px;
+    margin: 0 auto;
+    color: #FDFDFD;
+    font-family: "NEXT ART";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 1px;
+  }
+  .form_k {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 1180px;
+    height: 161px;
+    flex-shrink: 0;
+    border: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
+  }
+  .form_k .form_k_container {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    width: 1095px;
+    height: 81px;
+    margin: 40px 42px;
+  }
+  .form_k #location,
+  .form_k #member {
+    background: transparent;
+    display: flex;
+    height: 52px;
+    width: 270px;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--wl-primary-primary-300, #E1E3E4);
+    flex: 1 0 0;
+    color: #FDFDFD;
+    font-family: "Nunito Sans SB";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+  .form_k .data_k {
+    background: transparent;
+    display: flex;
+    height: 52px;
+    width: 270px;
+    padding: 0 16px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--wl-primary-primary-300, #E1E3E4);
+    flex: 1 0 0;
+    color: #FDFDFD;
+    font-family: "Nunito Sans SB";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+  .form_k .form_k_btn {
+    display: flex;
+    padding: 16px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #FDFDFD;
+    height: 52px;
+    width: 213px;
+    border: none;
+    flex: 1 0 0;
+    color: #1A3E3E;
+    font-family: "Nunito Sans SB";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.192px;
+  }
+  .form_k .form_k_date {
+    width: 270px;
+  }
+  .form_k label {
+    flex: 1 0 0;
+    color: #FDFDFD;
+    font-family: "Nunito Sans R";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .form_k ::-webkit-calendar-picker-indicator {
+    color: black;
+    opacity: 1;
+    background: url("../icons/formkit_date.svg") no-repeat center;
+  }
+  .form_k .form_k_btn:hover {
+    background-color: rgb(72, 182, 126);
+  }
+  li {
+    list-style-type: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container_k {
+    height: 45rem;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    width: 100%;
+  }
+  .main_section {
+    padding: 0;
+  }
+  .main_section .main_section_title {
+    width: 100%;
+  }
+  .form_k {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container_k {
+    height: 35rem;
+    justify-content: space-between;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+  }
+  .header .header_menu {
+    display: none;
+  }
+  .main_section {
+    padding: 0;
+  }
+  .main_section .main_section_title {
+    width: 100%;
+    font-size: 35px;
+  }
+  .form_k {
+    display: none;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 319px) {
+  .container_k {
+    height: 35rem;
+    justify-content: space-between;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+  }
+  .header .header_menu {
+    display: none;
+  }
+  .main_section {
+    padding: 0;
+  }
+  .main_section .main_section_title {
+    width: 100%;
+    font-size: 35px;
+  }
+  .form_k {
+    display: none;
+  }
+}
 .version {
   color: #F2BE22;
   font-family: "Nunito Sans";
@@ -250,7 +480,8 @@ li {
   gap: 0.625rem;
   border-radius: 0.25rem 0rem 0rem 0.25rem;
   background: rgba(253, 253, 253, 0.4);
-  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   position: absolute;
   top: 3.13rem;
   left: 18rem;
@@ -293,7 +524,8 @@ li {
   flex-shrink: 0;
   border-radius: 0rem 0rem 2rem 2rem;
   background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
   position: absolute;
   top: 24.6rem;
   right: 0.6rem;
@@ -425,7 +657,8 @@ h2 {
 .news__img {
   width: 14.375rem;
   height: 17.5rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 6px;
 }
 
@@ -660,7 +893,8 @@ h2 {
   width: 21.875rem;
   flex-shrink: 0;
   border-radius: 24px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: absolute;
   overflow: hidden;
 }
@@ -738,7 +972,8 @@ h2 {
     width: 92vw;
     height: 110vw;
     border-radius: 24px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     position: relative;
     overflow: hidden;
   }
@@ -1263,6 +1498,4 @@ footer .secondfooter {
   .forms {
     display: none;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

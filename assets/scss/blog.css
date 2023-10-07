@@ -71,7 +71,8 @@ h2 {
 .news__img {
   width: 14.375rem;
   height: 17.5rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 6px;
 }
 
@@ -117,6 +118,4 @@ h2 {
   .blog {
     padding: 5rem 0 6.25rem 0;
   }
-}
-
-/*# sourceMappingURL=blog.css.map */
+}/*# sourceMappingURL=blog.css.map */
