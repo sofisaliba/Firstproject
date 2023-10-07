@@ -127,3 +127,13 @@ right: 0.6rem;
     top: 26.5rem;
     right: 3rem;
 }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        } 
+        
+        
+}
+
