@@ -52,7 +52,21 @@
     margin: 0;
     /* 83.333% */
 }
-
+.btn {
+    background-color: #1a3e3e;
+    color: white;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.25rem;
+    letter-spacing: 0.012rem;
+    grid-column: 2/3;
+    margin-left: 1rem;
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+    width: 15rem;
+    height: 2.75rem;
+  }
 .e-h2 {
     color: #18121e;
     font-family: Nunito Sans;

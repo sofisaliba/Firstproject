@@ -77,7 +77,7 @@
 }
 
 .phone {
-  width: 21.3rem;
+  width: 23.3rem;
   height: 5.625rem;
   flex-shrink: 0;
   border-radius: 0rem 0rem 2rem 2rem;
@@ -147,5 +147,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .phone {
+    display: none;
   }
 }/*# sourceMappingURL=containertwo.css.map */
