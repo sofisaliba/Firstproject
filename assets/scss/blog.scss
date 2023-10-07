@@ -1,20 +1,9 @@
-@font-face {
-    font-family: 'NEXT ART';
-    src: url('../fonts/NEXTART_Bold.woff') format(woff);
-}
-@font-face {
-    font-family: 'Nunito Sans SB';
-    src: url('../fonts/NunitoSans-SemiBold.woff') format(woff);
-}
-@font-face {
-    font-family: 'Nunito Sans R';
-    src: url('../fonts/NunitoSans-Regular.woff') format(woff);
-}
+
 
 h2 {
     color: #18121E;
 text-align: center;
-font-family: Nunito Sans;
+font-family: $fontB;
 font-size: 32px;
 font-style: normal;
 font-weight: 800;
@@ -24,7 +13,7 @@ line-height: 120%; /* 38.4px */
 .subheader {
     order: -1;
     color: #F2BE22;
-font-family: Nunito Sans;
+font-family: $fontR;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -54,7 +43,7 @@ line-height: 20px; /* 83.333% */
     width: 157px;
     height: 44px;
     color: #FDFDFD;
-    font-family: "Nunito Sans SB";
+    font-family: $fontSB;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -89,7 +78,7 @@ border-radius: 6px;
 
 .news__date {
     color: #F2BE22;
-font-family: Nunito Sans;
+font-family: $fontB;
 font-size: 0.875rem;
 font-style: normal;
 font-weight: 700;
@@ -98,7 +87,7 @@ line-height: 1.25rem; /* 142.857% */
 
 .news__link {
     color: #1A3E3E;
-font-family: Nunito Sans;
+font-family: $fontB;
 font-size: 0.875rem;
 font-style: normal;
 font-weight: 700;

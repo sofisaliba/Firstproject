@@ -1,9 +1,4 @@
-@font-face {
-    font-family: "Nunito Sans";
-    src: url(/assets/fonts/NunitoSans.ttf);
-    font-style: normal;
-    font-weight: normal;
-}
+
 
 .e-outter-frame {
     display: block;
@@ -43,7 +38,7 @@
 .e-h1 {
     color: #f2be22;
     text-shadow: 0px 0px 1px;
-    font-family: Nunito Sans;
+    font-family: $fontR;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -55,7 +50,7 @@
 .btn {
     background-color: #1a3e3e;
     color: white;
-    font-family: Nunito Sans, sans-serif;
+    font-family: $fontR, sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 300;
@@ -69,7 +64,7 @@
   }
 .e-h2 {
     color: #18121e;
-    font-family: Nunito Sans;
+    font-family: $fontB;
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
@@ -81,7 +76,7 @@
 
 .e-content-text {
     color: #18121e;
-    font-family: Nunito Sans;
+    font-family: $fontR;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -116,7 +111,7 @@
 
 .e-point-header {
     color: #18121e;
-    font-family: Nunito Sans;
+    font-family: $fontB;
     font-size: 18px;
     font-style: normal;
     font-weight: 900;
@@ -128,7 +123,7 @@
 .e-point-text {
     align-self: stretch;
     color: #000;
-    font-family: Nunito Sans;
+    font-family: $fontR;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

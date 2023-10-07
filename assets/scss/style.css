@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "NEXT ART";
+  src: url("../fonts/NEXTART_Bold.woff") format(woff);
+}
+@font-face {
+  font-family: "Nunito Sans SB";
+  src: url("../fonts/NunitoSans-SemiBold.woff") format(woff);
+}
+@font-face {
+  font-family: "Nunito Sans R";
+  src: url("../fonts/NunitoSans-Regular.woff") format(woff);
+}
+@font-face {
+  font-family: "Nunito Sans EB";
+  src: url("../fonts/NunitoSans-ExtraBold.woff") format(woff);
+}
 .container_k {
   background: url("../image/Rectangle1.png");
   max-width: 100%;
@@ -50,7 +66,7 @@
   width: 157px;
   height: 44px;
   color: #FDFDFD;
-  font-family: "Nunito Sans SB";
+  font-family: "Ninto Sans SB";
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -78,7 +94,7 @@
   letter-spacing: 1px;
 }
 
-.form {
+.form_k {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -92,7 +108,7 @@
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
 }
-.form .form_container {
+.form_k .form_k_container {
   display: inline-flex;
   align-items: flex-start;
   gap: 24px;
@@ -100,8 +116,8 @@
   height: 81px;
   margin: 40px 42px;
 }
-.form #location,
-.form #member {
+.form_k #location,
+.form_k #member {
   background: transparent;
   display: flex;
   height: 52px;
@@ -114,13 +130,13 @@
   border: 1px solid var(--wl-primary-primary-300, #E1E3E4);
   flex: 1 0 0;
   color: #FDFDFD;
-  font-family: "Nunito Sans SB";
+  font-family: "Ninto Sans SB";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
 }
-.form .data_k {
+.form_k .data_k {
   background: transparent;
   display: flex;
   height: 52px;
@@ -133,13 +149,13 @@
   border: 1px solid var(--wl-primary-primary-300, #E1E3E4);
   flex: 1 0 0;
   color: #FDFDFD;
-  font-family: "Nunito Sans SB";
+  font-family: "Ninto Sans SB";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
 }
-.form .form_btn {
+.form_k .form_k_btn {
   display: flex;
   padding: 16px 36px;
   justify-content: center;
@@ -152,17 +168,17 @@
   border: none;
   flex: 1 0 0;
   color: #1A3E3E;
-  font-family: "Nunito Sans SB";
+  font-family: "Ninto Sans SB";
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
   letter-spacing: 0.192px;
 }
-.form .form_date {
+.form_k .form_k_date {
   width: 270px;
 }
-.form label {
+.form_k label {
   flex: 1 0 0;
   color: #FDFDFD;
   font-family: "Nunito Sans R";
@@ -171,12 +187,12 @@
   font-weight: 400;
   line-height: 150%;
 }
-.form ::-webkit-calendar-picker-indicator {
+.form_k ::-webkit-calendar-picker-indicator {
   color: black;
   opacity: 1;
   background: url("../icons/formkit_date.svg") no-repeat center;
 }
-.form .form_btn:hover {
+.form_k .form_k_btn:hover {
   background-color: rgb(72, 182, 126);
 }
 
@@ -236,7 +252,7 @@ li {
     width: 157px;
     height: 44px;
     color: #FDFDFD;
-    font-family: "Nunito Sans SB";
+    font-family: "Ninto Sans SB";
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -298,7 +314,7 @@ li {
     border: 1px solid var(--wl-primary-primary-300, #E1E3E4);
     flex: 1 0 0;
     color: #FDFDFD;
-    font-family: "Nunito Sans SB";
+    font-family: "Ninto Sans SB";
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -317,7 +333,7 @@ li {
     border: 1px solid var(--wl-primary-primary-300, #E1E3E4);
     flex: 1 0 0;
     color: #FDFDFD;
-    font-family: "Nunito Sans SB";
+    font-family: "Ninto Sans SB";
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -336,7 +352,7 @@ li {
     border: none;
     flex: 1 0 0;
     color: #1A3E3E;
-    font-family: "Nunito Sans SB";
+    font-family: "Ninto Sans SB";
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -442,7 +458,7 @@ li {
 }
 .version {
   color: #F2BE22;
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans R";
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -453,7 +469,7 @@ li {
 .popular {
   color: #18121E;
   text-align: center;
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans EB";
   font-size: 2rem;
   font-style: normal;
   font-weight: 800;
@@ -499,7 +515,7 @@ li {
   width: 1.3125rem;
   height: 1.125rem;
   color: #1A3E3E;
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans EB";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
@@ -533,7 +549,7 @@ li {
 
 .text {
   color: #FDFDFD;
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans EB";
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
@@ -545,7 +561,7 @@ li {
 
 .text-two {
   color: #FDFDFD;
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans R";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
@@ -574,7 +590,7 @@ li {
   width: 3.375rem;
   height: 1.5rem;
   color: #FDFDFD;
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans EB";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
@@ -601,22 +617,10 @@ li {
     display: none;
   }
 }
-@font-face {
-  font-family: "NEXT ART";
-  src: url("../fonts/NEXTART_Bold.woff") format(woff);
-}
-@font-face {
-  font-family: "Nunito Sans SB";
-  src: url("../fonts/NunitoSans-SemiBold.woff") format(woff);
-}
-@font-face {
-  font-family: "Nunito Sans R";
-  src: url("../fonts/NunitoSans-Regular.woff") format(woff);
-}
 h2 {
   color: #18121E;
   text-align: center;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans EB";
   font-size: 32px;
   font-style: normal;
   font-weight: 800;
@@ -626,7 +630,7 @@ h2 {
 .subheader {
   order: -1;
   color: #F2BE22;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans R";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -655,7 +659,7 @@ h2 {
   width: 157px;
   height: 44px;
   color: #FDFDFD;
-  font-family: "Nunito Sans SB";
+  font-family: "Ninto Sans SB";
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -691,7 +695,7 @@ h2 {
 
 .news__date {
   color: #F2BE22;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans EB";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
@@ -700,7 +704,7 @@ h2 {
 
 .news__link {
   color: #1A3E3E;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans EB";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
@@ -754,7 +758,7 @@ h2 {
   width: 157px;
   height: 44px;
   color: #FDFDFD;
-  font-family: "Nunito Sans SB";
+  font-family: "Ninto Sans SB";
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -778,12 +782,6 @@ h2 {
   .impressions__img:not(:nth-child(2)) {
     display: none;
   }
-}
-@font-face {
-  font-family: "Nunito Sans";
-  src: url(/assets/fonts/NunitoSans.ttf);
-  font-style: normal;
-  font-weight: normal;
 }
 .e-outter-frame {
   display: block;
@@ -823,7 +821,7 @@ h2 {
 .e-h1 {
   color: #f2be22;
   text-shadow: 0px 0px 1px;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans R";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -836,7 +834,7 @@ h2 {
 .btn {
   background-color: #1a3e3e;
   color: white;
-  font-family: Nunito Sans, sans-serif;
+  font-family: "Nunito Sans R", sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 300;
@@ -851,7 +849,7 @@ h2 {
 
 .e-h2 {
   color: #18121e;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans EB";
   font-size: 32px;
   font-style: normal;
   font-weight: 800;
@@ -863,7 +861,7 @@ h2 {
 
 .e-content-text {
   color: #18121e;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans R";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -898,7 +896,7 @@ h2 {
 
 .e-point-header {
   color: #18121e;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans EB";
   font-size: 18px;
   font-style: normal;
   font-weight: 900;
@@ -910,7 +908,7 @@ h2 {
 .e-point-text {
   align-self: stretch;
   color: #000;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans R";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -1120,7 +1118,7 @@ a:hover {
 }
 
 .name {
-  font-family: Nunito Sans, sans-serif;
+  font-family: "Ninto Sans SB", sans-serif;
   color: #f3f5f4;
   text-align: start;
   font-size: 1.25rem;
@@ -1131,7 +1129,7 @@ a:hover {
 
 .texts {
   width: 100%;
-  font-family: Nunito Sans, sans-serif;
+  font-family: "Nunito Sans R", sans-serif;
   margin-top: 1.7rem;
   color: var(--white-color-100, #fff);
   font-size: 0.875rem;
@@ -1174,7 +1172,7 @@ a:hover {
 
 .take {
   font-size: 26px;
-  font-family: Nunito-Sans, sans-serif;
+  font-family: "Nunito Sans R", sans-serif;
   margin-left: 1rem;
   margin-top: 0.5rem;
 }
@@ -1186,7 +1184,7 @@ a:hover {
 .btn {
   background-color: #1a3e3e;
   color: white;
-  font-family: Nunito Sans, sans-serif;
+  font-family: "Nunito Sans R", sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 300;
@@ -1225,7 +1223,7 @@ a:hover {
   width: 33.5rem;
   height: 2.25rem;
   grid-column: 1/3;
-  font-family: Nunito Sans;
+  font-family: "Ninto Sans SB";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 350;
@@ -1267,19 +1265,19 @@ footer .secondfooter {
 
 .info {
   font-size: 0.875rem;
-  font-family: NUnito Sans, sans-serif;
+  font-family: "Nunito Sans R", sans-serif;
   line-height: 1.125rem;
 }
 
 .number {
   font-size: 0.875rem;
-  font-family: NUnito Sans, sans-serif;
+  font-family: "Nunito Sans R", sans-serif;
   margin-left: 1.5rem;
   line-height: 1.125rem;
 }
 
 .list {
-  font-family: Nunito Sans, sans-serif;
+  font-family: "Nunito Sans R", sans-serif;
   color: #fdfdfd;
   font-size: 0.875rem;
   font-style: normal;
@@ -1297,7 +1295,7 @@ footer .secondfooter {
 
 .policy {
   text-decoration: underline;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans R";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 300;
@@ -1307,7 +1305,7 @@ footer .secondfooter {
 }
 
 .ip {
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans R";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 300;
@@ -1335,7 +1333,7 @@ footer .secondfooter {
 
 .new {
   color: #1a3e3e;
-  font-family: Nunito Sans;
+  font-family: "Nunito Sans EB";
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 700;
@@ -1408,7 +1406,7 @@ footer .secondfooter {
   }
   .take {
     color: #18121e;
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans EB";
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 800;
@@ -1425,7 +1423,7 @@ footer .secondfooter {
   .btn {
     background-color: #1a3e3e;
     color: white;
-    font-family: Nunito Sans, sans-serif;
+    font-family: "Nunito Sans R", sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 300;
@@ -1450,7 +1448,7 @@ footer .secondfooter {
     width: 19rem;
     height: 2.25rem;
     grid-column: 1/3;
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans R";
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 350;
@@ -1473,7 +1471,7 @@ footer .secondfooter {
   }
   .texts {
     width: 85%;
-    font-family: Nunito Sans, sans-serif;
+    font-family: "Nunito Sans R", sans-serif;
     margin-top: 1.06rem;
     color: var(--white-color-100, #fff);
     font-size: 0.875rem;
@@ -1514,7 +1512,7 @@ footer .secondfooter {
   }
   .policy {
     text-decoration: underline;
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans EB";
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;
@@ -1523,7 +1521,7 @@ footer .secondfooter {
     height: 1.125rem;
   }
   .ip {
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans EB";
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;
@@ -1579,7 +1577,7 @@ footer .secondfooter {
   }
   .take {
     color: #18121e;
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans EB";
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 800;
@@ -1596,7 +1594,7 @@ footer .secondfooter {
   .btn {
     background-color: #1a3e3e;
     color: white;
-    font-family: Nunito Sans, sans-serif;
+    font-family: "Nunito Sans R", sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 300;
@@ -1621,7 +1619,7 @@ footer .secondfooter {
     width: 19rem;
     height: 2.25rem;
     grid-column: 1/3;
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans R";
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 350;
@@ -1644,7 +1642,7 @@ footer .secondfooter {
   }
   .texts {
     width: 85%;
-    font-family: Nunito Sans, sans-serif;
+    font-family: "Nunito Sans R", sans-serif;
     margin-top: 1.06rem;
     color: var(--white-color-100, #fff);
     font-size: 0.875rem;
@@ -1685,7 +1683,7 @@ footer .secondfooter {
   }
   .policy {
     text-decoration: underline;
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans EB";
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;
@@ -1694,7 +1692,7 @@ footer .secondfooter {
     height: 1.125rem;
   }
   .ip {
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans EB";
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;

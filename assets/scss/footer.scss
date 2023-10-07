@@ -45,7 +45,7 @@ a:hover {
     flex-shrink: 0;
   }
   .name {
-    font-family: Nunito Sans, sans-serif;
+    font-family: $fontSB, sans-serif;
     color: #f3f5f4;
     text-align: start;
     font-size: 1.25rem;
@@ -55,7 +55,7 @@ a:hover {
   }
   .texts {
     width: 100%;
-    font-family: Nunito Sans, sans-serif;
+    font-family: $fontR, sans-serif;
     margin-top: 1.7rem;
     color: var(--white-color-100, #fff);
 
@@ -98,7 +98,7 @@ a:hover {
 
   .take {
     font-size: 26px;
-    font-family: Nunito-Sans, sans-serif;
+    font-family: $fontR, sans-serif;
     margin-left: 1rem;
     margin-top: 0.5rem;
   }
@@ -110,7 +110,7 @@ a:hover {
   .btn {
     background-color: #1a3e3e;
     color: white;
-    font-family: Nunito Sans, sans-serif;
+    font-family: $fontR, sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 300;
@@ -149,7 +149,7 @@ a:hover {
     width: 33.5rem;
     height: 2.25rem;
     grid-column: 1/3;
-    font-family: Nunito Sans;
+    font-family: $fontSB;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 350;
@@ -188,17 +188,17 @@ a:hover {
   }
   .info {
     font-size: 0.875rem;
-    font-family: NUnito Sans, sans-serif;
+    font-family: $fontR, sans-serif;
     line-height: 1.125rem;
   }
   .number {
     font-size: 0.875rem;
-    font-family: NUnito Sans, sans-serif;
+    font-family: $fontR, sans-serif;
     margin-left: 1.5rem;
     line-height: 1.125rem;
   }
   .list {
-    font-family: Nunito Sans, sans-serif;
+    font-family: $fontR, sans-serif;
 
     color: #fdfdfd;
 
@@ -215,7 +215,7 @@ a:hover {
   }
   .policy {
     text-decoration: underline;
-    font-family: Nunito Sans;
+    font-family:$fontR;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 300;
@@ -224,7 +224,7 @@ a:hover {
     height: 1.125rem;
   }
   .ip {
-    font-family: Nunito Sans;
+    font-family: $fontR;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 300;
@@ -248,7 +248,7 @@ a:hover {
   }
   .new {
     color: #1a3e3e;
-    font-family: Nunito Sans;
+    font-family: $fontB;
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 700;
@@ -335,7 +335,7 @@ a:hover {
     }
     .take {
       color: #18121e;
-      font-family: Nunito Sans;
+      font-family: $fontB;
       font-size: 1.5rem;
       font-style: normal;
       font-weight: 800;
@@ -354,7 +354,7 @@ a:hover {
     .btn {
       background-color: #1a3e3e;
       color: white;
-      font-family: Nunito Sans, sans-serif;
+      font-family: $fontR, sans-serif;
       font-size: 1rem;
       font-style: normal;
       font-weight: 300;
@@ -380,7 +380,7 @@ a:hover {
       width: 19rem;
       height: 2.25rem;
       grid-column: 1/3;
-      font-family: Nunito Sans;
+      font-family: $fontR;
       font-size: 0.875rem;
       font-style: normal;
       font-weight: 350;
@@ -406,7 +406,7 @@ gap: 0.625rem;
     }
     .texts {
       width: 85%;
-      font-family: Nunito Sans, sans-serif;
+      font-family: $fontR, sans-serif;
       margin-top: 1.06rem;
       color: var(--white-color-100, #fff);
   
@@ -450,7 +450,7 @@ line-height: 1.25rem;
     }
     .policy {
       text-decoration: underline;
-      font-family: Nunito Sans;
+      font-family: $fontB;
       font-size: 0.875rem;
       font-style: normal;
       font-weight: 600;
@@ -459,7 +459,7 @@ line-height: 1.25rem;
       height: 1.125rem;
     }
     .ip {
-      font-family: Nunito Sans;
+      font-family: $fontB;
       font-size: 0.875rem;
       font-style: normal;
       font-weight: 600;
@@ -528,7 +528,7 @@ line-height: 1.25rem;
     }
     .take {
       color: #18121e;
-      font-family: Nunito Sans;
+      font-family: $fontB;
       font-size: 1.5rem;
       font-style: normal;
       font-weight: 800;
@@ -547,7 +547,7 @@ line-height: 1.25rem;
     .btn {
       background-color: #1a3e3e;
       color: white;
-      font-family: Nunito Sans, sans-serif;
+      font-family: $fontR, sans-serif;
       font-size: 1rem;
       font-style: normal;
       font-weight: 300;
@@ -573,7 +573,7 @@ line-height: 1.25rem;
       width: 19rem;
       height: 2.25rem;
       grid-column: 1/3;
-      font-family: Nunito Sans;
+      font-family: $fontR;
       font-size: 0.875rem;
       font-style: normal;
       font-weight: 350;
@@ -599,7 +599,7 @@ gap: 0.625rem;
     }
     .texts {
       width: 85%;
-      font-family: Nunito Sans, sans-serif;
+      font-family: $fontR, sans-serif;
       margin-top: 1.06rem;
       color: var(--white-color-100, #fff);
   
@@ -643,7 +643,7 @@ line-height: 1.25rem;
     }
     .policy {
       text-decoration: underline;
-      font-family: Nunito Sans;
+      font-family: $fontB;
       font-size: 0.875rem;
       font-style: normal;
       font-weight: 600;
@@ -652,7 +652,7 @@ line-height: 1.25rem;
       height: 1.125rem;
     }
     .ip {
-      font-family: Nunito Sans;
+      font-family: $fontB;
       font-size: 0.875rem;
       font-style: normal;
       font-weight: 600;
