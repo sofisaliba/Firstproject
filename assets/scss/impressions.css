@@ -40,17 +40,14 @@
 
 @media all and (max-width: 1180px) {
   .impressions__wrapper {
-    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
   }
   .impressions__img {
     width: 100%;
   }
 }
 @media all and (max-width: 768px) {
-  .impressions__wrapper {
-    grid-template-columns: repeat(2, 1fr);
-    width: auto;
-  }
   .impressions__img1, .impressions__img5 {
     display: none;
   }

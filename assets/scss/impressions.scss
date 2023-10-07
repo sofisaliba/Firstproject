@@ -42,28 +42,19 @@
 
 @media all and (max-width: 1180px) {
     .impressions__wrapper {
-    display: flex;
-
-}
-    .impressions__img {
-        width: 100%;
-    }
-}
-
-@media all and (max-width: 768px) {
-    .impressions__wrapper {
     grid-template-columns: repeat(2, 1fr);
     width: auto;
-    
-}
+    }
 .impressions__img1, .impressions__img5 {
     display: none;
 }
 }
 
-@media all and (max-width: 320px)  {
+@media all and (max-width: 600px)  {
+    .impressions__wrapper {
+        display: inline;
+    }
     .impressions__img:not(:nth-child(2)) {
         display: none;
     }
 }
- 
