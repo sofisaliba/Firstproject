@@ -767,6 +767,11 @@ h2 {
     display: none;
   }
 }
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .footer {
   background-color: #1a3e3e;
   display: grid;
@@ -810,6 +815,7 @@ h2 {
 .name {
   font-family: Nunito Sans, sans-serif;
   color: #f3f5f4;
+  text-align: start;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
@@ -888,11 +894,6 @@ h2 {
 
 .list-group {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }
 
 .actual {
@@ -1045,8 +1046,13 @@ footer .secondfooter {
   margin-left: 0.5rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .forms__second {
+    display: none;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .form {
+  .forms__second {
     width: 22.375rem;
     height: 21.9375rem;
     flex-shrink: 0;
@@ -1103,5 +1109,8 @@ footer .secondfooter {
     width: 17.5rem;
     height: 12.5rem;
     flex-shrink: 0;
+  }
+  .forms {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
