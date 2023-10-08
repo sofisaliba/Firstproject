@@ -50,6 +50,9 @@
   line-height: normal;
   text-decoration: none;
 }
+.header .header_menu_link:hover {
+  color: #F2BE22;
+}
 .header .header_logo {
   width: 8.563rem;
   height: 4.5rem;
